@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+Disallow: /pervy-sertifikat/blog/preview/
+
+Sitemap: https://murzzsite.github.io/pervy-sertifikat/sitemap.xml

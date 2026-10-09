@@ -1,0 +1,39 @@
+{
+  "siteName": "Первый Сертификат",
+  "siteUrl": "https://murzzsite.github.io/pervy-sertifikat",
+  "lang": "ru",
+  "repo": "murzzsite/pervy-sertifikat",
+  "ref": "56YJDN2QD9",
+  "workerUrl": "https://lead-relay.leestygpt.workers.dev",
+  "blogTitle": "Блог",
+  "blogDescription": "Полезные статьи от центра сертификации «Первый Сертификат»",
+  "homeTitle": "Полезные статьи",
+  "author": {
+    "name": "Центр сертификации «Первый Сертификат»",
+    "jobTitle": "",
+    "type": "Organization"
+  },
+  "ctaTitle": "Остались вопросы?",
+  "ctaText": "Оставьте заявку — разберём вашу ситуацию и подскажем следующий шаг.",
+  "ctaButton": "Оставить заявку",
+  "ctaUrl": "/#contact",
+  "disclaimer": "Материал носит информационный характер. Требования к документам зависят от вида продукции и действующих технических регламентов: перед оформлением уточните их для вашего товара.",
+  "telegramNotify": true,
+  "cadenceDays": 7,
+  "homeLatest": 3,
+  "staticPages": [
+    "/"
+  ],
+  "indexNowKey": "c52561085708cc638d92b6e8554c6fdd",
+  "previewSecret": "4c595e2b837409b2",
+  "theme": {
+    "accent": "var(--clr-accent)",
+    "accent-soft": "var(--clr-accent-soft)",
+    "bg": "var(--clr-bg)",
+    "surface": "var(--clr-surface)",
+    "ink": "var(--clr-ink)",
+    "text": "var(--clr-text)",
+    "soft": "var(--clr-text-soft)",
+    "line": "var(--clr-line)"
+  }
+}
