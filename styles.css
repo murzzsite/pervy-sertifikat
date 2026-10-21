@@ -637,3 +637,8 @@ h1, h2, h3, .faq__item summary, .tariff__name { text-wrap: balance; }
 @media (max-width: 1100px) { .tariffs--4 { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 900px) { .tariffs--4 { grid-template-columns: repeat(2, 1fr); } .offer-grid--2 { grid-template-columns: 1fr; } .tariffs { grid-template-columns: repeat(2, 1fr); } }
 @media (max-width: 560px) { .tariffs--4, .tariffs { grid-template-columns: 1fr; } .tariffs--4 .tariff__name { min-height: 0; } }
+
+/* Две плавающие кнопки: Telegram и MAX */
+.fabs { position: fixed; right: 20px; bottom: 20px; z-index: 90; display: flex; flex-direction: column; gap: 10px; align-items: flex-end; }
+.fabs .fab { position: static; }
+@media (max-width: 560px) { .fabs { right: 14px; bottom: 14px; } .fabs .fab { padding: 12px 16px; } .fabs .fab span { display: inline; font-size: 13px; } }
